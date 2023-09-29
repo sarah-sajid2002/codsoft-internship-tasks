@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+/* =============main================ */
+
+.main {
+  width: 100%;
+  height: 110vh;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+
+.main h1 {
+  color: rgb(108, 106, 106);
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  text-shadow: 8px 8px 8px rgb(82, 76, 76);
+  font-family: "Gasoek One", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+/* =============calculator================ */
+
+.calculator {
+  width: 17%;
+  height: 50%;
+  border: 2px solid black;
+  margin: auto;
+  box-shadow: 8px 10px 8px 8px rgb(25, 25, 25);
+  font-family: "Gasoek One", sans-serif;
+}
+
+.calculator #screen {
+  width: 90%;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(43, 41, 41);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.calculator #screen #result {
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 20px;
+  color: rgb(142, 138, 138);
+  font-size: 30px;
+}
+
+.calculator #line {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+/* =============boxes 1================ */
+.boxes_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.boxes_1 input {
+  color: rgb(91, 88, 88);
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 5px;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(26, 19, 19);
+  box-shadow: rgba(55, 55, 56, 0.25) 0px 30px 60px -12px inset,
+    rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.boxes_1 input {
+  background-color: orange;
+}
+
+.boxes_1 input:hover {
+  cursor: pointer;
+}
+
+/* =============boxes 2================ */
+.boxes_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxes_2 input {
+  color: rgb(91, 88, 88);
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 5px;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(26, 19, 19);
+  box-shadow: rgba(55, 55, 56, 0.25) 0px 30px 60px -12px inset,
+    rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+.boxes_2 input:nth-child(4) {
+  background-color: orange;
+}
+.boxes_2 input:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+/* =============boxes 3================ */
+.boxes_3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxes_3 input {
+  color: rgb(91, 88, 88);
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 5px;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(26, 19, 19);
+  box-shadow: rgba(55, 55, 56, 0.25) 0px 30px 60px -12px inset,
+    rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+.boxes_3 input:nth-child(4) {
+  background-color: orange;
+}
+.boxes_3 input:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+/* =============boxes 4================ */
+.boxes_4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxes_4 input {
+  color: rgb(91, 88, 88);
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 5px;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(26, 19, 19);
+  box-shadow: rgba(55, 55, 56, 0.25) 0px 30px 60px -12px inset,
+    rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.boxes_4 input:nth-child(4) {
+  background-color: orange;
+}
+.boxes_4 input:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+/* =============boxes 5================ */
+.boxes_5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxes_5 input {
+  color: rgb(91, 88, 88);
+
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 5px;
+  width: 70px;
+  height: 50px;
+
+  background-color: rgb(26, 19, 19);
+  box-shadow: rgba(55, 55, 56, 0.25) 0px 30px 60px -12px inset,
+    rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.boxes_5 input:hover {
+  cursor: pointer;
+}
+
+.boxes_5 input:nth-child(3) {
+  font-size: 40px;
+  width: 130px;
+  height: 50px;
+  background-color: rgb(41, 40, 40);
+  padding: 0px;
+  background-color: orange;
+}
+
+.boxes_5 input:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+/* ===========================media quesry=================== */
+@media screen and (max-width: 900px) {
+  .calculator {
+    width: 50%;
+  }
+  .boxes_1 input,
+  .boxes_2 input,
+  .boxes_3 input,
+  .boxes_4 input,
+  .boxes_5 input {
+    width: 70px;
+    font-size: 30px;
+    height: 50px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .calculator {
+    height: 80%;
+    width: 70%;
+  }
+  .boxes_1 input,
+  .boxes_2 input,
+  .boxes_3 input,
+  .boxes_4 input,
+  .boxes_5 input {
+    width: 50px;
+    font-size: 30px;
+    height: 50px;
+    padding: 0px;
+  }
+}

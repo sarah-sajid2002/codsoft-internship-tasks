@@ -1,0 +1,155 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+.bothDiv {
+  display: flex;
+  background-color: #05012f;
+  justify-content: space-around;
+  height: 60vh;asdt4
+}
+#skillsText {
+  height: 50px;
+}
+#resumeText {
+  height: 90px;
+}
+.skills {
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+.resume {
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+.skills h1,
+.resume h1 {
+  padding-top: 40px;
+  text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+    -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+  text-transform: uppercase;
+  text-align: center;
+}
+.mainBar {
+  width: 70%;
+  height: 20px;
+  background-color: rgb(38, 2, 2);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 40px 0px;
+  box-shadow: rgba(1195, 174, 201, 0.19) 0px 10px 20px,
+    rgba(107, 182, 207, 0.23) 0px 6px 6px;
+  cursor: pointer;
+}
+.skillsBar {
+  height: 20px;
+  background-color: rgb(13, 19, 198);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 30%;
+  box-shadow: rgb(46, 1, 1) 0px 20px 30px -10px;
+}
+.resume button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(46, 1, 1);
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: rgb(46, 1, 1) 0px 20px 30px -10px;
+  transition: 0.5s linear;
+}
+.resume button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.resume button:hover {
+  background-color: #05012f;
+  box-shadow: #bebec7 0px 20px 30px -10px;
+}
+/* ==ani1 */
+.ani1 {
+  transition: 0.5s linear;
+  animation: ani1 1.5s linear 1 forwards;
+}
+
+@keyframes ani1 {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+/* ===ani2 */
+.ani2 {
+  transition: 0.5s linear;
+  animation: ani2 1.5s linear 1 forwards;
+}
+
+@keyframes ani2 {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+/* ===ani3 */
+.ani3 {
+  transition: 0.5s linear;
+  animation: ani3 1.5s linear 1 forwards;
+}
+
+@keyframes ani3 {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+/* ===ani4 */
+.ani4 {
+  transition: 0.5s linear;
+  animation: ani4 1.5s linear 1 forwards;
+}
+
+@keyframes ani4 {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+/* ==========footer============== */
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #05012f;
+}
+
+@media (max-width: 700px) {
+  .bothDiv {
+    display: block;
+    height: 80vh;
+  }
+  .skills {
+    width: 100%;
+  }
+  .resume {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .bothDiv {
+    height: 90vh;
+  }
+}
